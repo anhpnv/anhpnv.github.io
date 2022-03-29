@@ -35,7 +35,7 @@ const responsive = require( "gulp-responsive" );
 const imagemin = require( "gulp-imagemin");
 
 gulp.task( "default", () => {
-  return gulp.src( "_img/posts/*.{png,jpg}" )
+  return gulp.src( "_img/posts/anhpnv.{png,jpg}" )
     .pipe( responsive( {
         "*": [ // For all the images in the posts folder
           {
